@@ -75,6 +75,7 @@ $lang['bf_track_hits']			= 'Track Page Hits?';
 
 $lang['bf_action_save']			= 'Save';
 $lang['bf_action_delete']		= 'Delete';
+$lang['bf_action_delete1']		= 'Click To Sold';
 $lang['bf_action_edit']			= 'Edit';
 $lang['bf_action_undo']			= 'Undo';
 $lang['bf_action_cancel']		= 'Cancel';
@@ -163,7 +164,7 @@ $lang['bf_model_find_error']	= 'Not enough information to find by.';
 // Contexts
 //------------------------------------------------------------------------------
 $lang['bf_no_contexts']			= 'The contexts array is not properly setup. Check your application config file.';
-$lang['bf_context_content']		= 'Content';
+$lang['bf_context_content']		= 'Car Inventory';
 $lang['bf_context_reports']		= 'Reports';
 $lang['bf_context_settings']	= 'Settings';
 $lang['bf_context_developer']	= 'Developer';

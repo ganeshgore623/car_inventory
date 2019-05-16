@@ -63,7 +63,7 @@ class Home extends MX_Controller
 	{
 		$this->load->library('users/auth');
 		$this->set_current_user();
-
+		redirect(base_url()."index.php/login");
 		Template::render();
 	}//end index()
 

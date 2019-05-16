@@ -65,7 +65,7 @@ class Users extends Front_Controller
     {
         // If the user is already logged in, go home.
         if ($this->auth->is_logged_in() !== false) {
-            Template::redirect('/');
+            Template::redirect('/admin/content');
         }
 
         // Try to login.
